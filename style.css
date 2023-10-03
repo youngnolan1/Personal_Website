@@ -171,9 +171,11 @@ section {
 
 .section__pic-container {
     display: flex;
-    height: 400px:
-    width: 400px;
+    height: 335px;
+    width: 335px;
     margin: auto 0;
+    float: left;
+    padding-right: 5.7rem;
 }
 
 .section__text {
@@ -219,6 +221,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    padding-top: 1rem;
 }
 
 .btn {
@@ -277,6 +280,7 @@ section {
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    float: right;
 }
 
 .about-containers, 
@@ -306,13 +310,7 @@ section {
 
 .section-container {
     gap: 4rem;
-    height: 80%;
-}
-
-.section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    width: 100%;
 }
 
 /* EXPERIENCE SECTION */
